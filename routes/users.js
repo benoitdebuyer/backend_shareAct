@@ -11,11 +11,6 @@ const uid2 = require("uid2");
 // 3 const pour la sauvegarde de la photo
 const cloudinary = require('cloudinary').v2;
 
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET
-});
 
 const fs = require('fs');
 const uniqid = require('uniqid');
